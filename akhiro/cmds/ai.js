@@ -37,7 +37,7 @@ module.exports = {
     } catch (error) {
       console.error(`❌ | Error occurred while interacting with AI: ${error}`);
       api.sendMessage(
-        "❌ | An error occurred while processing your request.",
+        "❌ | Sorry wanakoy load pang research.",
         event.threadID,
         event.messageID,
       );
