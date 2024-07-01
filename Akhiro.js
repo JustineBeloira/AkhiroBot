@@ -213,18 +213,15 @@ function initializeBot() {
               if (event.body && event.body.toLowerCase() === "prefix") {
                 api.sendMessage(
                   fonts.applyFonts(`
-──╔╗──────╔╗╔╗
-╔═╣╚╦╦╦╦╦═╣╚╬╬╗╔╗
-║═╣║║║║╔╣═╣║║║╚╣╚╗
-╚═╩╩╩═╩╝╚═╩╩╩╩═╩═╝
+♡∩_∩
+(„• ֊ •„)♡ 
+┏∪∪━━━━━━━━━━━━━━━━━━●
+Hello there User, Im Justine Bot. My Prefix Is This [ ${global.AkhiroBot.botPrefix} ]. I Hope You Will Enjoy Using Me, Have Fun. Thanks!
 
-━━━━━━━━━━━━━━━━━━━
-Hello there User, Im Churchillbot. My Prefix Is This [ ${global.AkhiroBot.botPrefix} ]. I Hope You Will Enjoy Using Me, Have Fun. Thanks!
+Justine Bot Is A Botpack File Project Made By 𝙅𝙪𝙨𝙩𝙞𝙣𝙚 𝘿𝙚𝙫
 
-Churchillbot Is A Botpack File Project Made By churchillDev
-
-DEVELOPERS OF 𝐂𝐇𝐔𝐑𝐂𝐇𝐈𝐋𝐋𝐁𝐎𝐓:
-- chill ( churchill abing)
+DEVELOPERS OF JUSTINE BOT:
+-  𝙅𝙪𝙨𝙩𝙞𝙣𝙚 𝘽𝙚𝙡𝙤𝙞𝙧𝙖
 
 YSD: Churchillbot`, "sans"),
                   event.threadID,
